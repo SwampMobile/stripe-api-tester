@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="card_bk">#0088FF</color>
+	<color name="card_text_sharp">#FFF</color>
+	<color name="card_text_soft">#88CCFF</color>
+	<color name="button_normal">#AAAAAA</color>
+	<color name="button_text_normal">#666</color>
+	<color name="button_text_pressed">@color/card_text_sharp</color>
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 14 theme customizations can go here. -->
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>
+    
+    <style name="ActionBar" parent="android:Widget.Holo.Light.ActionBar.Solid">
+        
+    </style>
+    
+    <style name="AppThemeWithoutActionBarTitle" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/ActionBarWithoutTitle</item>
+    </style>
+    
+    <style name="ActionBarWithoutTitle" parent="@style/ActionBar">
+        <item name="android:displayOptions">useLogo</item>
+    </style>
+    
+    <style name="AppThemeWithoutActionBarIcon" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/ActionBarWithoutIcon</item>
+    </style>
+    
+    <style name="ActionBarWithoutIcon" parent="@style/ActionBar">
+        <item name="android:displayOptions">showTitle</item>
+    </style>
+
+</resources>

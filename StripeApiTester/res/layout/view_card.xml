@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:padding="16dp"
+    android:background="@drawable/card_bk" >
+    
+    <TextView
+        android:id="@+id/textview_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/card_text_sharp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="--------"
+        />
+    
+    <TextView
+        android:id="@+id/textview_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/card_text_sharp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/textview_type"
+        android:text="xxxx-xxxx-xxxx-xxxx"
+        />
+    
+    <TextView
+        android:id="@+id/textview_exp_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/card_text_soft"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="Exp:"
+        />
+    
+    <TextView
+        android:id="@+id/textview_exp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/card_text_sharp"
+        android:layout_alignTop="@id/textview_exp_label"
+        android:layout_toRightOf="@id/textview_exp_label"
+        android:text="-- / --"
+        android:layout_marginLeft="10dp"
+        />
+    
+    <TextView
+        android:id="@+id/textview_cvc_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/card_text_soft"
+        android:layout_alignTop="@id/textview_exp"
+        android:layout_toLeftOf="@+id/textview_cvc"
+        android:text="CVC:"
+        android:layout_marginRight="10dp"
+        />
+    
+    <TextView
+        android:id="@id/textview_cvc"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/card_text_sharp"
+        android:gravity="right"
+        android:layout_alignTop="@id/textview_exp"
+        android:layout_alignParentRight="true"
+        android:text="----"
+        />
+
+</RelativeLayout>
